@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: #1c2230;
+    max-height: 550vh;
+    overflow: hidden;
+}
+/* start header */
+.flyo{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.flyo h1{
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    color: white;
+}
+nav{
+    direction: rtl;
+}
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 260px;
+    list-style: none;
+   
+}
+nav ul li{
+    color: #dfe5ef;
+    position: relative;
+    bottom: 85px;
+    left: 25px;
+}
+/* end header */
+.body{
+    color: white;
+    
+
+}
+
+/* start section-1 */
+.section-1{
+    position: relative;
+    left: 25%;  
+     
+}
+.section-1 h1{
+    width: 600px;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.section-1 p{
+    width: 450px;
+    text-align: center;
+    margin-left: 180px;
+    position: relative;
+    z-index: 1;
+}
+.section-1 button{
+    color: white;
+    background-color: #50c4d5;
+    width: 225px;
+    height: 40px;
+    font-size: 20px;
+    border-radius:30px ;
+    border: none;
+    position: relative;
+    z-index: 1;
+    margin-left: 290px;
+}
+/* End section-1 */
+
+/* Start section-2 */
+.section-2{
+    position: relative;
+    bottom: 150px;
+   
+}
+.cards{
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+   
+ 
+    
+
+}
+.cards .card{
+    width:290px;
+      margin-bottom: 100px;
+    margin-right:100px;
+    
+}
+.cards .card .image-card img{
+    position:relative;
+    left: 80px;
+}
+/* End section-2 */
+
+/* Start section-3 */
+.section-3 .section-3-image{
+    position: relative;
+    bottom  : 250px;
+}
+
+.section-3 .content{
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    width: 450px;
+}
+.section-3 .content h1{
+    width: 250px;
+}
+.section-3 .content a{
+    color: #89c3c5;
+    font-size: 25px;
+}
+/* End Section-3 */
+
+/* Start section-4 */
+.section-4{
+    margin-left:125px;
+    position: relative;
+    bottom: 150px;
+}
+
+.section-4 .section-4-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left:10px ;
+    margin-right: 5px;
+}
+
+.section-4 .section-4-cards .card-quotes{
+    background-color: #181e2a;
+    margin-right: 30px;
+    padding: 20px;
+    border-radius:10px;
+}
+.section-4 .section-4-cards p{
+    max-width: 300px;
+  
+
+}
+.card-quotes .person-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card-quotes .person-image span{
+    position: relative;
+    bottom: 20px;
+    padding-left:5px;
+    font-size: 20px;
+}
+.card-quotes .person-image ::after{
+    content: "Founder & CEO, Huddle";
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+    width: 50px;
+}
+
+.card-qone .person-image span::after{
+    right: 95px ;
+}
+.card-qtwo .person-image span::after{
+    right: 130px ;
+}
+.card-qthree .person-image span::after{
+    right: 75px ;
+}
+/* End section-4 */
+
+/* Start section-5 */
+.section-5{
+    color: white;
+    background-color: #191e2b;
+    text-align: center;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20%;
+    position: relative;
+    z-index: 1;
+}
+.section-5 p{
+    width: 700px;
+    padding-left: 50px;
+}
+
+.section-5 input{
+    width: 360px;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: none;
+    margin-right: 50px;
+}
+.section-5 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 10px;
+    background-color: #3fadce;
+    border: none;
+    
+ 
+
+}
+/* end section-5 */
+
+
+/* Start footer */
+    .footer{
+        background-color: #0c1524;
+        color: white;
+        padding-top: 150px;
+        padding-bottom: 150px;
+       position: relative;
+       bottom: 100px;
+        display: flex;
+         flex-wrap: nowrap;
+         
+        
+         
+    }
+   .footer-one{
+    margin-left: 50px;
+
+    
+   }
+    .footer-one p{
+        max-width: 300px;
+       position: relative;
+       left: 18px;
+       bottom: 37px;
+    }
+
+    .communication{
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+    .list-one ul,
+    .list-two ul,
+    .social-media ul
+    {
+        list-style: none;
+        margin-top: 50px;
+        margin-left: 80px;
+        
+    }
+    .list-one ul li,
+    .list-two ul li,
+    .social-media ul li{
+        margin-bottom: 10px;
+        font-size: 20px;
+        
+    }
+    .social-media ul{
+        display: flex;
+        flex-wrap: nowrap;
+
+      
+    }
+    .social-media ul li{
+        width: 50px;
+
+    }
+
+
+/* End footer */
+
+/* Medias */
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .container{
+        width: 100%;
+        max-height: 535vh;
+        padding: 0;
+        margin: 0;
+    }
+    .section-1{
+        position: relative;
+        left: 0%;  
+         
+    }
+    .section-1 .image{
+        max-width: 350px;
+    }
+    .section-1 .image img{
+        width: 100%;
+    }
+    .section-1 h1{
+        width: 400px;
+        padding: 0 10px  ;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .section-1 p{
+        width: 350px;
+        text-align: center;
+        margin-left: 10px;
+       
+    }
+    .section-1 button{
+       
+       min-width: 250px;
+       
+        margin-left: 65px;
+    }
+    .section-2{
+        bottom: 300px;
+       
+    }
+    
+.section-2{
+    position: relative;
+    bottom: 150px;
+   
+}
+.cards .card .image-card img {
+    left: 100px;
+}
+.card h2{
+    width: 300px;
+}
+.section-3 .section-3-image{
+    max-width: 350px;
+}
+.section-3 .section-3-image img{
+    width: 100%;
+}
+.section-3 .content {
+    top: 280%;
+    left: 10%;
+}
+.section-3 .content h1{
+    width: 280px;
+    font-size: 19px;
+}
+.section-3 .content p{
+    width: 335px;
+
+}
+
+
+.section-4{
+    margin-left:0;
+    margin-top: 150px;
+
+}
+
+.section-4 .section-4-cards{
+  
+    padding-left:10px ;
+     display: block;
+}
+.section-4 .section-4-image img{
+    margin-left: 25px;
+}
+
+.section-4 .section-4-cards{
+    padding: 0 20px;
+}
+.section-4 .section-4-cards .card-quotes{
+    margin-right: 0;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.section-5{
+
+    
+    max-width: 380px;
+    padding: 10px;
+    margin-left: 0%;
+ 
+}
+.section-5 p{
+    width: 310px;
+    padding-left: 21px;
+}
+
+.section-5 input{
+    width: 350px;
+  
+}
+.section-5 button{
+    margin-top: 10px;
+  width: 350px;
+    
+ 
+
+}
+.footer{
+  
+    padding-top: 150px;
+    padding-bottom: 0;
+         bottom: 0;
+    display: block;
+     
+    
+     
+}
+.footer-one{
+margin-left: 30px;
+
+
+}
+.footer-one .location img{
+    position: relative;
+right: 20px;
+}
+
+.footer-one p{
+    max-width: 350px;
+  
+   left: 0;
+   bottom: 37px;
+}
+
+.communication{
+    margin-top: 0;
+    margin-left: 30px;
+}
+.list-one ul,
+.list-two ul,
+.social-media ul
+{
+
+    margin-left: 0;
+    
+}
+.social-media ul li{
+    margin-left: 50px;
+
+}
+
+
+}
+
+
+
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+      }
+    
+
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
+}
+
