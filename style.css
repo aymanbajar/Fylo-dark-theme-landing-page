@@ -4,7 +4,8 @@
 .container{
     background-color: #1c2230;
     max-height: 550vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 /* start header */
 .flyo{
@@ -289,171 +290,221 @@ nav ul li{
 /* Mobile */
 
 @media (max-width: 767px) {
-    .container{
-        width: 100%;
-        max-height: 535vh;
+    body{
         padding: 0;
         margin: 0;
     }
+    .container{
+        width: 100%;
+    }
+    .header{
+        width: 350px;
+    }
+    .flyo .image{
+        max-width: 50px;
+    }
+    .flyo img{
+        width: 100%;
+    }
+    .flyo h1{
+        font-size: 15px;
+        position: relative;
+        top: 5px;
+        right: 0;
+        left: 0px;
+    }
+    
+    .header nav ul{
+        width: 135px;
+        position: relative;
+        right: 105px;
+        font-size: 10px;
+        top: 40px;
+    }
+
+    nav ul li{
+        
+        bottom: 80px;
+        left: 10px;
+    }
+
     .section-1{
         position: relative;
         left: 0%;  
          
     }
     .section-1 .image{
-        max-width: 350px;
+        max-width: 200px;
     }
     .section-1 .image img{
-        width: 100%;
+        width: 100%         ;
     }
     .section-1 h1{
-        width: 400px;
-        padding: 0 10px  ;
+        width: 225px;
         margin-left: 0;
-        font-size: 20px;
+        font-size: 15px;
     }
     .section-1 p{
-        width: 350px;
-        text-align: center;
-        margin-left: 10px;
-       
+        width: 230px;
+        margin-left: 0;
+        font-size: 10px;
     }
     .section-1 button{
-       
-       min-width: 250px;
-       
-        margin-left: 65px;
+        margin-left: 0;
     }
     .section-2{
-        bottom: 300px;
+        bottom: 0;
        
     }
     
-.section-2{
+.cards{
     position: relative;
-    bottom: 150px;
+    bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
    
+ 
+    
+
 }
-.cards .card .image-card img {
-    left: 100px;
-}
-.card h2{
-    width: 300px;
-}
-.section-3 .section-3-image{
+.section-2 .image{
     max-width: 350px;
+
+}
+.section-2 .image img{
+    width: 100%         ;
+}
+.cards{
+    bottom: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.cards .card{
+    width: 350px;
+    margin-bottom: 0;
+    margin-right: 0;
+    
+}
+    .cards .card .image-card{
+        max-width: 70px;
+    }
+    .cards .card .image-card img{
+        width: 100%;
+        left: 40px;
+    }
+    .cards .card h2{
+        font-size: 14px;
+
+    }
+     .card p{
+        width: 210px;
+        font-size: 12px;
+    }
+    .cards:last-child{
+        position: relative;
+        z-index: 1;
+    }
+    
+.section-3 .section-3-image{
+    bottom: 120px;
+    max-width: 245px;
 }
 .section-3 .section-3-image img{
     width: 100%;
 }
-.section-3 .content {
-    top: 280%;
-    left: 10%;
+
+.section-3 .content{
+    position: absolute;
+    top: 150%;
+    left: 4%;
+    z-index: 2;
 }
 .section-3 .content h1{
-    width: 280px;
-    font-size: 19px;
+    font-size: 14px;
+}
+.section-3 .content a{
+    color: #89c3c5;
+    font-size: 15px;
 }
 .section-3 .content p{
-    width: 335px;
-
+    width: 215px;
 }
 
-
-.section-4{
-    margin-left:0;
-    margin-top: 150px;
-
+.section-4 {
+    margin-left: 5px;
+    position: relative;
+    top: 160px;
 }
-
-.section-4 .section-4-cards{
-  
-    padding-left:10px ;
-     display: block;
+.section-4 .section-4-image{
+    max-width: 50px;
 }
 .section-4 .section-4-image img{
-    margin-left: 25px;
+    width: 100%;
 }
-
-.section-4 .section-4-cards{
-    padding: 0 20px;
+.section-4-cards{
+    display: block;
 }
-.section-4 .section-4-cards .card-quotes{
+.section-4 .section-4-cards {
+    display: block;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+.section-4 .section-4-cards .card-quotes {
     margin-right: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.section-4 .section-4-cards p {
+    max-width: 200px;
+    font-size: 12px;
+}
+.section-5 {
+
+    max-width: 350px;
     padding: 20px;
-    margin-bottom: 30px;
-    
-}
-
-.section-5{
-
-    
-    max-width: 380px;
-    padding: 10px;
     margin-left: 0%;
- 
-}
-.section-5 p{
-    width: 310px;
-    padding-left: 21px;
-}
-
-.section-5 input{
-    width: 350px;
-  
-}
-.section-5 button{
-    margin-top: 10px;
-  width: 350px;
-    
- 
+    position: relative;
+    z-index: 1;
+    top: 140px;
 
 }
-.footer{
-  
+.section-5 h2{
+    width: 169px;
+    font-size: 17px;
+}
+.section-5 p {
+    max-width: 201px;
+    padding-left: 0;
+    font-size: 10px;
+}
+.section-5 input {
+    max-width: 212px;
+    padding-left: 10px;
+    position: relative;
+    right: 30px;
+}
+.section-5 button {
+    width: 205px;
+    padding-left: 10px;
+    margin-right: 141px;
+    margin-top: 7px;
+}
+.footer {
     padding-top: 150px;
     padding-bottom: 0;
-         bottom: 0;
-    display: block;
-     
-    
-     
-}
-.footer-one{
-margin-left: 30px;
-
-
-}
-.footer-one .location img{
     position: relative;
-right: 20px;
+    bottom: 0;
+    display: block;
 }
-
-.footer-one p{
-    max-width: 350px;
-  
-   left: 0;
-   bottom: 37px;
+.footer-one {
+    margin-left: 5px;
 }
-
-.communication{
-    margin-top: 0;
-    margin-left: 30px;
-}
-.list-one ul,
-.list-two ul,
-.social-media ul
-{
-
-    margin-left: 0;
-    
-}
-.social-media ul li{
-    margin-left: 50px;
-
-}
-
-
 }
 
 
@@ -462,8 +513,8 @@ right: 20px;
 /* Small Screens */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
-      }
+        
+}
     
 
 
