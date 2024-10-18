@@ -419,14 +419,14 @@ nav ul li{
 
 .section-3 .content{
     position: absolute;
-    top: 225%;
-    left: 4%;
+    top: 240%;
+    left: 0%;
     z-index: 2;
     max-width: 360px;
 }
 .section-3 .content h1{
     font-size: 22px;
-    width: 390px;
+    max-width: 380px;
 }
 .section-3 .content a{
     color: #89c3c5;
@@ -531,7 +531,7 @@ nav ul li{
 /* Small Screens */
 
 @media (min-width: 768px) and (max-width: 991px) {
-        
+   
 }
     
 
