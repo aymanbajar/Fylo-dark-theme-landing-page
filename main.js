@@ -5,6 +5,7 @@ menu.style.position = 'relative';
 menu.style.left = '350px';
 menu.style.bottom = '35px';
 menu.style.fontSize = '25px';
+menu.style.width='25px'
 
 // Create the list but don't append it yet
 var list = document.createElement('ul');
@@ -58,7 +59,7 @@ menu.addEventListener('click', () => {
 
 var header = document.getElementsByClassName('header')[0];
 header.appendChild(menu);
-    
+
 
 
 

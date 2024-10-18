@@ -4,8 +4,6 @@
 .container{
     background-color: #1c2230;
     max-height: 550vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 /* start header */
 .flyo{
@@ -293,9 +291,16 @@ nav ul li{
     body{
         padding: 0;
         margin: 0;
+     
+
+        
     }
     .container{
         width: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        
     }
     .header{
         min-width: 350px;
@@ -417,10 +422,11 @@ nav ul li{
     top: 225%;
     left: 4%;
     z-index: 2;
+    max-width: 360px;
 }
 .section-3 .content h1{
-    font-size: 25px;
-    width: 400px;
+    font-size: 22px;
+    width: 390px;
 }
 .section-3 .content a{
     color: #89c3c5;
@@ -434,7 +440,7 @@ nav ul li{
 .section-4 {
     margin-left: 5px;
     position: relative;
-    top: 160px;
+    top: 170px;
 }
 .section-4 .section-4-image{
     max-width: 50px;
@@ -456,38 +462,51 @@ nav ul li{
     margin-bottom: 5px;
 }
 .section-4 .section-4-cards p {
-    max-width: 200px;
-    font-size: 12px;
+    max-width: 370px;
+    font-size: 20px;
+}
+.section-4 .person-image span{
+    font-size: 23px;
+
+}
+.section-4 .person-image span::after{
+    font-size: 17px;
+    margin-right: 140px;
+
+
 }
 .section-5 {
 
-    max-width: 350px;
+    max-width: 400px;
     padding: 20px;
     margin-left: 0%;
     position: relative;
     z-index: 1;
     top: 140px;
+    overflow: hidden;
 
 }
 .section-5 h2{
-    width: 169px;
-    font-size: 17px;
+    width: 350px;
+    font-size: 35px;
 }
 .section-5 p {
-    max-width: 201px;
+    max-width: 350px;
     padding-left: 0;
-    font-size: 10px;
+    font-size: 20px;
 }
 .section-5 input {
-    max-width: 212px;
+    max-width: 330px;
     padding-left: 10px;
     position: relative;
-    right: 30px;
+    right: 0px;
+
 }
+
 .section-5 button {
-    width: 205px;
-    padding-left: 10px;
-    margin-right: 141px;
+    min-width: 350px;
+    position: relative;
+    right: 10px;
     margin-top: 7px;
 }
 .footer {
@@ -498,7 +517,11 @@ nav ul li{
     display: block;
 }
 .footer-one {
-    margin-left: 5px;
+    margin-left: 10px;
+}
+.communication {
+    margin-top: 0;
+    margin-left: 25px;
 }
 }
 
