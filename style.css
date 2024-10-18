@@ -298,7 +298,7 @@ nav ul li{
         width: 100%;
     }
     .header{
-        width: 350px;
+        min-width: 350px;
     }
     .flyo .image{
         max-width: 50px;
@@ -315,11 +315,12 @@ nav ul li{
     }
     
     .header nav ul{
-        width: 135px;
-        position: relative;
-        right: 105px;
-        font-size: 10px;
-        top: 40px;
+       display: none;
+       width: 135px;
+       position: relative;
+       right: 105px;
+       font-size: 10px;
+       top: 40px;
     }
 
     nav ul li{
