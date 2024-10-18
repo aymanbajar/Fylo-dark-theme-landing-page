@@ -335,45 +335,34 @@ nav ul li{
          
     }
     .section-1 .image{
-        max-width: 200px;
+        max-width: 400px;
     }
     .section-1 .image img{
         width: 100%         ;
     }
     .section-1 h1{
-        width: 225px;
+        width: 350px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .section-1 p{
+        width: 370px;
         margin-left: 0;
         font-size: 15px;
     }
-    .section-1 p{
-        width: 230px;
-        margin-left: 0;
-        font-size: 10px;
-    }
     .section-1 button{
-        margin-left: 0;
+        margin-left: 14px;
+        width: 360px;
     }
+    
     .section-2{
         bottom: 0;
        
     }
     
-.cards{
-    position: relative;
-    bottom: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 80%;
-    padding: 10px;
-    margin: auto;
-   
- 
-    
 
-}
 .section-2 .image{
-    max-width: 350px;
+    max-width: 400px;
 
 }
 .section-2 .image img{
@@ -393,19 +382,22 @@ nav ul li{
     
 }
     .cards .card .image-card{
-        max-width: 70px;
+        max-width: 90px;
+        margin-left: 80px;
     }
     .cards .card .image-card img{
         width: 100%;
         left: 40px;
     }
     .cards .card h2{
-        font-size: 14px;
+        font-size: 29px;
+
 
     }
      .card p{
-        width: 210px;
-        font-size: 12px;
+        max-width: 350px;
+        font-size: 20px;
+    
     }
     .cards:last-child{
         position: relative;
@@ -414,7 +406,7 @@ nav ul li{
     
 .section-3 .section-3-image{
     bottom: 120px;
-    max-width: 245px;
+    max-width: 400px;
 }
 .section-3 .section-3-image img{
     width: 100%;
@@ -422,19 +414,21 @@ nav ul li{
 
 .section-3 .content{
     position: absolute;
-    top: 150%;
+    top: 225%;
     left: 4%;
     z-index: 2;
 }
 .section-3 .content h1{
-    font-size: 14px;
+    font-size: 25px;
+    width: 400px;
 }
 .section-3 .content a{
     color: #89c3c5;
-    font-size: 15px;
+    font-size: 30px;
 }
 .section-3 .content p{
-    width: 215px;
+    max-width: 374px;
+    font-size: 20px;
 }
 
 .section-4 {
