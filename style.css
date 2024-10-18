@@ -300,6 +300,7 @@ nav ul li{
         overflow: hidden;
         padding: 0;
         margin: 0;
+        max-height: 478vh;
         
     }
     .header{
@@ -418,15 +419,15 @@ nav ul li{
 }
 
 .section-3 .content{
-    position: absolute;
-    top: 240%;
-    left: 0%;
+    position: relative;
+
+    left: 5%;
     z-index: 2;
     max-width: 360px;
 }
 .section-3 .content h1{
-    font-size: 22px;
-    max-width: 380px;
+    font-size: 23px;
+    width: 391px;
 }
 .section-3 .content a{
     color: #89c3c5;
@@ -438,9 +439,9 @@ nav ul li{
 }
 
 .section-4 {
-    margin-left: 5px;
+    margin-left: 20px;
     position: relative;
-    top: 170px;
+    top: 30px;
 }
 .section-4 .section-4-image{
     max-width: 50px;
@@ -460,6 +461,7 @@ nav ul li{
     margin-right: 0;
     padding: 0;
     margin-bottom: 5px;
+    min-height: 180px;
 }
 .section-4 .section-4-cards p {
     max-width: 370px;
@@ -470,8 +472,8 @@ nav ul li{
 
 }
 .section-4 .person-image span::after{
-    font-size: 17px;
-    margin-right: 140px;
+    ont-size: 15px;
+    margin-right: 0;
 
 
 }
@@ -482,7 +484,7 @@ nav ul li{
     margin-left: 0%;
     position: relative;
     z-index: 1;
-    top: 140px;
+    top: 50px;
     overflow: hidden;
 
 }
@@ -531,7 +533,9 @@ nav ul li{
 /* Small Screens */
 
 @media (min-width: 768px) and (max-width: 991px) {
-   
+    .fa-bars:before, .fa-navicon:before {
+        display: none;
+    }
 }
     
 
@@ -539,11 +543,17 @@ nav ul li{
 /* Medium Screens */
 
 @media (min-width: 992px) {
+    .fa-bars:before, .fa-navicon:before {
+        display: none;
+    }
 }
 
 /* Large Screens */
 
 @media (min-width: 1200px) {
+    .fa-bars:before, .fa-navicon:before {
+        display: none;
+    }
 }
 
 /* Custom */
