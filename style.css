@@ -4,6 +4,7 @@
 .container{
     background-color: #1c2230;
     max-height: 550vh;
+    overflow: hidden;
 }
 /* start header */
 .flyo{
@@ -300,7 +301,6 @@ nav ul li{
         overflow: hidden;
         padding: 0;
         margin: 0;
-        max-height: 478vh;
         
     }
     .header{
@@ -459,20 +459,20 @@ nav ul li{
 }
 .section-4 .section-4-cards .card-quotes {
     margin-right: 0;
-    padding: 0;
+    padding: 5px 5px  0 0;
     margin-bottom: 5px;
-    min-height: 180px;
+    max-width: 400px;
 }
 .section-4 .section-4-cards p {
-    max-width: 370px;
-    font-size: 20px;
+    max-width: 400px;
+    font-size: 22px;
 }
 .section-4 .person-image span{
-    font-size: 23px;
+    font-size: 19px;
 
 }
 .section-4 .person-image span::after{
-    ont-size: 15px;
+    font-size: 18px;
     margin-right: 0;
 
 
@@ -512,11 +512,11 @@ nav ul li{
     margin-top: 7px;
 }
 .footer {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 0;
     position: relative;
-    bottom: 0;
-    display: block;
+    top: 15px;
+        display: block;
 }
 .footer-one {
     margin-left: 10px;
@@ -525,6 +525,11 @@ nav ul li{
     margin-top: 0;
     margin-left: 25px;
 }
+.list-one ul, .list-two ul, .social-media ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 80px;
+    }
 }
 
 

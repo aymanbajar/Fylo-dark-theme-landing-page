@@ -25,6 +25,7 @@ list.appendChild(three);
 list.style.color = 'white';
 list.style.listStyle = 'none';
 
+
 // Style the links
 Array.from(list.querySelectorAll('a')).forEach(link => {
   link.style.textDecoration = 'none';
@@ -47,6 +48,7 @@ menu.addEventListener('click', () => {
     menu.appendChild(list);
     menu.style.left = '250px';
     showingMenu = true;
+   
   } else {
     menu.innerHTML = '<i class="fa-solid fa-bars"></i>';
     menu.style.left = '350px';
